@@ -5,7 +5,7 @@ from tqdm.auto import tqdm
 
 from promptda.utils.io_wrapper import load_image, load_depth, save_depth
 from promptda.utils.parallel_utils import parallel_execution
-from promptda.promptda import PromptDA
+from promptda.core import PromptDA
 
 def load_data(input_path: str, max_size: int):
     root_dir = os.path.dirname(input_path)

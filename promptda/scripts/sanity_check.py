@@ -1,4 +1,4 @@
-from promptda.promptda import PromptDA
+from promptda.core import PromptDA
 from promptda.utils.io_wrapper import load_image, load_depth, save_depth
 
 DEVICE = 'cuda'
